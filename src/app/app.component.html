@@ -1,0 +1,26 @@
+<div class="header">
+    <article><header><h2>Welcome to dummy project | Based on crud operation</h2>
+    </header>
+    </article>
+</div>
+ <!-- Nav tabs -->
+<ul class="nav nav-tabs mt-3" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation" routerLink='/user'>
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Product List</button>
+  </li>
+  <li class="nav-item" role="presentation"  routerLink='/create'>
+    <button class="nav-link" id="product-tab" data-bs-toggle="tab" data-bs-target="#product" type="button" role="tab" aria-controls="product" aria-selected="false">Create Product</button>
+  </li>
+  <li class="nav-item" role="presentation"  routerLink='/delete'>
+    <button class="nav-link" id="delete-tab" data-bs-toggle="tab" data-bs-target="#delete" type="button" role="tab" aria-controls="delete" aria-selected="false">Delete Product</button>
+  </li>
+  <li class="nav-item" role="presentation"  routerLink='/category'>
+    <button class="nav-link" id="category-tab" data-bs-toggle="tab" data-bs-target="#category" type="button" role="tab" aria-controls="category" aria-selected="false">Category</button>
+  </li>
+</ul>
+
+ 
+<div class="container-fluid">
+    <router-outlet></router-outlet>
+</div>
+
